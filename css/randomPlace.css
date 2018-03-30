@@ -1,0 +1,52 @@
+body {
+    background-color            : #22223b;
+}
+
+
+.randomPlace_desk {
+
+    background-color            : #f2e9e4;
+    width                       : 200px;
+    height                      : 160px;
+    border                      : 5px solid #22223b;
+    border-radius               : 4px;
+
+}
+
+.randomPlace_person_div {
+
+    display                     : flex;
+    flex-direction              : column;
+    align-items                 : center;
+
+}
+
+.randomPlace_person_div p {
+    color                       : #22223b;
+    font-size                   : 16px;
+    letter-spacing              : 2px;
+    font-weight                 : bold;
+}   
+
+.left_desk {
+    border-right                : none;
+    border-top-right-radius     : none;
+    border-bottom-right-radius  : none; 
+}
+.right_desk {
+    border-left                 : none;
+    border-top-left-radius      : none;
+    border-bottom-left-radius   : none; 
+}
+
+button {
+    background-color            : #f2e9e4;
+    border                      : 2px solid #f2e9e4;
+    width                       : 500px;
+    border-radius               : 7px;
+    height                      : 50px;
+}
+
+#main_content {
+    margin-top                  : 10%;
+}
